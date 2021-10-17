@@ -25,5 +25,5 @@ func routes(r *httprouter.Router) {
 
 	r.GET("/", controller.StartPage)
 	r.POST("/result", controller.ResultPage)
-	r.GET("/users", controller.GetUsers)
+	//r.GET("/users", controller.GetUsers)
 }
